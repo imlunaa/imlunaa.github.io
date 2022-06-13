@@ -1,7 +1,32 @@
-h2{ background-color:#FFE59D;
-}
-p, h2 {color:#68A7AD;}
+p, h2 {text-align:center;
+    color:#68A7AD;}
 p, h4 {color:#1572A1;}
 html{background-color:#CCD1E4;}
 P, h1 {color:#5800FF;}
-body{background-image: url(bg.jpeg);}
+.navigation ul {           
+    margin: 0;             
+    padding: 4px;          
+    text-align: center;    
+}
+.navigation ul li {        
+    list-style-type: none; 
+    display: inline;       
+    margin: 0 5px;         
+    font-size: 15px;       
+}
+.navigation ul li a {      
+    color:#D52484;         
+    text-decoration: none; 
+}
+.navigation ul li a:hover {
+    color: #EC9CD3;        
+    text-decoration: underline;
+}
+.mainvisual {
+    background-color:#BCA0D1; 
+}
+.mainvisual img {    
+    display: block;  
+    margin: 0 auto;  
+    max-width: 100%; 
+    height: auto;    
