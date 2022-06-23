@@ -3,7 +3,6 @@ h2{ background-color:#FFE59D;
 p, h2 {text-align:center;
     color:#68A7AD;}
 p, h4 {color:#1572A1;}
-html{background-color:#CCD1E4;}
 P, h1 {color:#5800FF;}
 .hr-twill-colorful {
     border: 0;
@@ -13,3 +12,15 @@ P, h1 {color:#5800FF;}
     -webkit-mask-image: var(--mask-image);
     mask-image: var(--mask-image);
 }
+.bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }

@@ -1,7 +1,6 @@
 p, h2 {text-align:center;
     color:#68A7AD;}
 p, h4 {color:#1572A1;}
-html{background-color:#CCD1E4;}
 P, h1 {color:#5800FF;}
 .navigation ul {           
     margin: 0;             
@@ -25,8 +24,16 @@ P, h1 {color:#5800FF;}
 .mainvisual {
     background-color:#BCA0D1; 
 }
-.mainvisual img {    
-    display: block;  
-    margin: 0 auto;  
-    max-width: 100%; 
-    height: auto;    
+.bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -999;
+        }
+        .bg img {
+            min-height: 100%;
+            width: 100%;
+        }
+  
